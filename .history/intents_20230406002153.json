@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hi", "hello", "hey", "howdy"],
+      "responses": ["Hi there! How can I help you today?", "Hello! What can I do for you?"]
+    },
+    {
+      "tag": "questions",
+      "patterns": ["what is your name?", "what is your name please?", "what is your name again?"],
+      "responses": ["My name is Bard. What can I call you?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it?", "what is the time?", "what's the time?"],
+      "responses": ["It is currently 12:00 PM.", "The time is 12:00 PM."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what is the weather like today?", "what's the weather like today?", "what's the weather?"],
+      "responses": ["The weather today is sunny with a high of 75 degrees Fahrenheit."]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["bye", "goodbye", "see you later"],
+      "responses": ["Goodbye! Have a nice day.", "See you later!"]
+    }
+  ]
+}

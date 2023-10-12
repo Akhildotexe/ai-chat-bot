@@ -1,0 +1,32 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello" , "hey" , "wsg" , "yo" , "whats good" , "wassup" , "wsp" , "how is it going" ],
+    "responses" : ["Hello!" , "Hey" , "What's up!!" , "What can i do for you? "]
+   },
+
+    {"tag": "goodbyes",
+    "patterns": [" Cya" , "goodbye" , "alright bye" , "bye" , "later"],
+    "responses" :["Talk to you later!" , "Goodbye!" , " It's been nice talking with you! " , "bye!!"]
+   },
+
+    {"tag": "age",
+    "patterns": [" how old are you" , "whats your age" , "age?" , "how old "],
+    "responses" :[" Im 17 what about you ?" , "17!", "I am 17 years"]
+   },
+
+    {"tag": "name",
+    "patterns": ["whats your name?" , "name" , "who are you"],
+    "responses" :["Im AI what about you ?" , "I'm AI" , "I am Ai nice to meet you! What is your name?  "]
+   },
+
+   {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["Happy to help!", "My pleasure","You're welcome!", "Anytime!", "Glad I could help."]
+   },
+
+   {"tag": "weather",
+    "patterns": ["What's the weather like?", "How's the weather today?", "Will it rain today?", "Do I need an umbrella today?"],
+    "responses": ["The weather is sunny and warm today", "It's rainy and cold today", "The forecast calls for clear skies"],
+   }
+]}
+

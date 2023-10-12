@@ -1,0 +1,31 @@
+{
+	"intents": [{
+		"tag": "greetings",
+		"patterns": ["hello", "hey", "hi", "hey there", "hi there", "howdy", "greetings", "good morning", "good afternoon", "good evening", "what's up", "what's new", "how are you", "how's it going", "how do you do", "nice to meet you", "pleased to meet you"],
+		"responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Nice to meet you!", "How can I help you?", "What's on your mind?"]
+	}, {
+		"tag": "goodbyes",
+		"patterns": ["goodbye", "bye", "see you later", "later", "talk to you later", "catch you later", "take care", "have a good one", "until next time"],
+		"responses": ["Goodbye!", "See you later!", "Talk to you later!", "Take care!", "Have a great day!", "Farewell!"]
+	}, {
+		"tag": "age",
+		"patterns": ["how old are you", "what's your age", "age", "when were you born"],
+		"responses": ["I'm an AI language model, I don't age!", "I don't have an age, but I was created in 2021.", "I'm ageless, but I was developed recently."]
+	}, {
+		"tag": "name",
+		"patterns": ["what's your name", "who are you", "your name", "who made you", "who created you", "creator", "developers", "programmer", "designer"],
+		"responses": ["My name is Bard, and I was developed by Google AI.", "I'm Bard, an AI language model developed by Google AI.", "I was created by Google AI, and my name is Bard."]
+	}, {
+		"tag": "thanks",
+		"patterns": ["thanks", "thank you", "appreciate it", "thank you very much", "thanks a lot"],
+		"responses": ["You're welcome!", "Glad I could help!", "My pleasure!", "No problem!", "Anytime!"]
+	}, {
+		"tag": "weather",
+		"patterns": ["what's the weather like", "how's the weather", "is it raining", "will it rain today", "do I need an umbrella"],
+		"responses": ["I'm sorry, I don't have the current weather information.", "I'm not sure about the current weather, you can check your local weather service.", "I'm afraid I can't tell you the weather, but you can check a weather app or website for the latest updates."]
+	}, {
+		"tag": "creator",
+		"patterns": ["who created you", "who developed you", "who made you", "your creators", "your developers", "who made you"],
+		"responses": ["I was created by Google AI.", "Google AI is the company that created me.", "I am the product of years of research and development at Google AI."]
+	}]
+}
